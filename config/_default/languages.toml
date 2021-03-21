@@ -5,16 +5,41 @@
 # Configure the English version of the site.
 [en]
   languageCode = "en-us"
-  # contentDir = "content/en"  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+  contentDir = "content/en"  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
 
 # Uncomment the lines below to configure your website in a second language.
-#[zh]
-#  languageCode = "zh-Hans"
-#  contentDir = "content/zh"
-#  title = "Chinese website title..."
-#  [zh.params]
-#    description = "Site description in Chinese..."
-#  [[zh.menu.main]]
-#    name = "Wo"
-#    url = "#about"
-#    weight = 1
+[es]
+  languageCode = "es-mx"
+  contentDir = "content/es"
+  title = "Grupo Interdisciplinario de Cómputo Científico"
+  [es.params]
+    description = "Grupo Interdisciplinario de Cómputo Científico"
+  [[es.menu.main]]
+    name = "Inicio"
+    url = "#about"
+    weight = 1
+  
+  [[es.menu.main]]
+    name = "Noticias"
+    url = "news"
+    weight = 20
+
+  [[es.menu.main]]
+    name = "Equipo"
+    url = "people"
+    weight = 30
+
+  [[es.menu.main]]
+    name = "Seminarios"
+    url = "seminars"
+    weight = 40
+
+  [[es.menu.main]]
+    name = "Publicaciones"
+    url = "publication"
+    weight = 50
+
+  [[es.menu.main]]
+    name = "Contacto"
+    url = "contact"
+    weight = 60
