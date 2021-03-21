@@ -10,12 +10,12 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role:
+role: Ayudante de Profesor
 
 # Organizations/Affiliations
 organizations:
-- name: 
-  url: ""
+- name: Escuela Nacional de Estudios Superiores Unidad Morelia
+  url: "https://www.enesmorelia.unam.mx/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -41,7 +41,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: "mailto:elizandro@comunidad.unam.mx"
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/USERNAME
